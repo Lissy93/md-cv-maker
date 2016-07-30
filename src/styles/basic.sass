@@ -1,7 +1,11 @@
 
+.hide-on-computer
+  display: none
+
 html, body, .row, .side-bar, header
   height: 100%
 
+/* SIDEBAR */
 .side-bar
   padding: 0 !important
   header
@@ -28,15 +32,16 @@ html, body, .row, .side-bar, header
       margin-bottom: 20px
       background: rgba(255,255,255,0.25)
 
+/* MAIN CONTENT */
+.main-content
+  margin: 20px auto
+  width: 90%
+  p:not(:last-child)
+    padding-bottom: 15px
+    border-bottom: 1px solid #e2e2e2
 
 
-
-
-
-
-.inline
-  display: inline !important
-
+/* TEXT */
 h1
   background: rgba(0,0,0,0.6)
 h2
@@ -49,3 +54,47 @@ h2
 h4
   font-weight: 400
   color: #9e9e9e
+
+h5
+  margin-bottom: 0
+
+
+/* OVERIDING STYLES FOR THE PRINTER VERSION*/
+@media print
+  .hide-on-computer
+    display: block
+
+  .main-content
+    width: 100%
+    margin: 0
+
+  .col
+    border-bottom: 1px solid grey
+
+  .side-bar, i
+    display: none !important
+
+  p, b, span, a, div, h1, h2, h3, h4, h5, h6
+    color: #000000 !important
+
+  b, span
+    display: inline
+
+  div
+    box-shadow: none !important
+
+  p, span
+    font-size: 0.8em
+
+  h1
+    background: none
+    text-align: center
+    font-size: 2em
+
+  h4
+    font-size: 1.8em
+    margin: 0
+
+  h5
+    font-size: 1.3em
+    font-weight: normal

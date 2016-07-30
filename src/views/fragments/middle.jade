@@ -1,6 +1,13 @@
 
-div(style='margin: 20px auto; width: 90%')
+.main-content
   .row
+    .hide-on-computer
+      h1 Alicia Sykes CV
+
+      h4 <i class="material-icons">perm_identity</i> About
+      .col.s12.card-panel
+          p!= bio.join(" ").replace(/\n/g, "<br>")
+
     h4 <i class="material-icons">assignment</i> Employment
     .col.s12.card-panel
       for job in employment
@@ -31,3 +38,29 @@ div(style='margin: 20px auto; width: 90%')
         span(style='font-size:#{(skill.level / 6)+0.6}em; cursor: default', title='#{skill.type}: #{skill.name}. Competency: #{skill.level}/5') #{skill.name} &thinsp;
 
 
+  .row.hide-on-computer
+    br
+
+    .col.s6
+      h4 Contact
+      .card-panel
+          b Email:
+          span!= '&thinsp;'+contact.email
+          br
+          b Phone:
+          span!= '&thinsp;'+contact.phone
+          br
+          b Address:
+          span!= '&thinsp;'+contact.address
+
+    .col.s6.hide-on-computer
+      h4 Links
+      .card-panel
+        b Website:
+        span!= '&thinsp;' + contact.website
+        br
+        b GitHub:
+        span!= '&thinsp;' + social.github
+        br
+        b LinkedIn:
+        span!= '&thinsp;' + social.linkedin
