@@ -2,11 +2,156 @@
   "title":"Alicia Sykes CV",
   "heading1":"Alicia Sykes",
   "contact":{
-    "Address":"SE London",
-    "Phone": "07742922302",
-    "Email":"sykes.alicia@gmail.com",
-    "Website":"http://aliciasykes.com"
+    "address":"London",
+    "phone": "07742922302",
+    "email":"sykes.alicia@gmail.com",
+    "website":"AliciaSykes.com"
+  },
+  "bio": [
+    "Software Engineer with broad development knowledge, but specialising",
+    "in full-stack modern web applications. Hardworking, adaptable and",
+    "passionate about coding. Understands the importance of clean, good",
+    "quality and well tested code."
+  ],
+  "employment":[
+    {
+      "role":"Software Engineer (Intern)",
+      "place":"University of Oxford",
+      "placeurl":"http://www.tropicalmedicine.ox.ac.uk/uk-centre",
+      "dates":"June - September 2013 (3 months)",
+      "description":[
+        "Worked as part of a small Java team following the agile methodology.",
+        "Developing software for WWARN who are working towards the eradication",
+        "of resistance to anti-malarial vaccinations. Involved processing mass",
+        "amounts of data, so algorithm efficiency was paramount."
+      ]
+    },
+    {
+      "role":"Software Engineer",
+      "place":"Accenture, UK",
+      "placeurl":"https://www.accenture.com",
+      "dates":"July 2014 - September 2015 (15 months)",
+      "description":[
+        "Worked accross several large government departments as a Java developer,",
+        "before joining the Accenture UKI Innovation Programme, using a range of",
+        "modern technologies to rapidly develop prototypes in an agile team."
+      ]
+    },
+    {
+      "role":"Web Admin",
+      "place":"UTC Swindon",
+      "placeurl":"http://www.utcswindon.co.uk/",
+      "dates":"Part-time September 2013 - September 2014 (12 months)",
+      "description":[
+        "Was responsible for the day-to-day running of the WordPress site, from",
+        "creating and styling new pages and features to ensuring content was",
+        "published promptly and never out-of-date."
+      ]
+    }
+  ],
 
-  }
+  "experience":[
+    {
+      "title":"Teaching Computing",
+      "subtitle":"Completed UAS, A Level Computing tutor, published many educational resources",
+      "description":[
+        "While at Uni, ran a series of after-school programming clubs at the",
+        "local secondary school for year 7- 9 pupils to inspire them to get into coding.",
+        "Completed the Undergraduate Ambassador Scheme, which by the end involved",
+        "planning and taking full computing lessons. 1-to-1 A Level computing tutor,",
+        "helped several pupils increase their grades.",
+        "Developed and maintain many educational online computing teaching",
+        "and learning resources, which currently are being used world-wide"
+      ]
+    },
+    {
+      "title":"Hackathons",
+      "subtitle":"Keen attender of coding competitions",
+      "description":[
+        "I regularly attend hackathons and coding competitions around the",
+        "country, and abroad. I love the atmosphere, and the chance",
+        "to experiment with new technologies, as well as collaborate with others.",
+        "I have won, or been a runner-up of several large competitions recently"
+      ]
+    },
+    {
+      "title":"Freelance Work",
+      "subtitle":"http://aliciasykes.com",
+      "description":[
+        "Creating Android, iOS and hybrid mobile applications, as well as web",
+        "apps and WordPress sits for small businesses, individuals and start-ups.",
+        "A portfolio of my work can be found at http://aliciasykes.com/work.html",
+        "Between jobs I have also worked on several open source projects."
+      ]
+    },
+    {
+      "title":"Army Reservist",
+      "subtitle":"Currently serving in a London-based Army Reserve unit",
+      "description":[
+        "Regularly attend weekend exercises, and have had the opportunity to",
+        "learn a range of practical and transferable skills and gain",
+        "qualifications (including the Level 5 award in Management and Leadership)."
+      ]
+    }
 
+  ],
+  "education":[
+    {
+      "course":"Computer Science BSc",
+      "establishment":"Oxford Brookes University",
+      "placeurl":"https://www.brookes.ac.uk/",
+      "dates":"September 2012 - May 2016",
+      "description":[
+        "Gained a first-class honours in computer science, and won the",
+        "British Computer Society (BCS) award for best computing project.\n",
+        "Course representative and student ambassador, I was fully involved",
+        "in all aspects of my course"
+      ]
+    },
+    {
+      "course":"A Levels",
+      "establishment":"St John's Academy, Marlborough",
+      "placeurl":"http://www.stjohns.wilts.sch.uk/",
+      "dates":"May 2012 - Sep 2016",
+      "description":[
+        "Studied Economics, Physics and Computing at A Level. ",
+        "Business Studies and Photography for AS Level.\n",
+        "While studying also developed a set of interactive learning tools,",
+        "including a quiz sharing website, and dynamic computing revision app.",
+        "Won the governors award for economics."
+      ]
+    }
+  ],
+
+  "skills":[
+    {"name":"D3.js", "type":"web", "level":"5"},
+    {"name":"Node.js", "type":"web", "level":"5"},
+    {"name":"JavaScript", "type":"web", "level":"5"},
+    {"name":"unit testing", "type":"dev", "level":"4"},
+    {"name":"Java", "type":"Java", "level":"3"},
+    {"name":"CSS3", "type":"web", "level":"5"},
+    {"name":"CoffeeScript", "type":"web", "level":"5"},
+    {"name":"npm", "type":"web", "level":"5"},
+    {"name":"Ionic", "type":"mobile", "level":"4"},
+    {"name":"HTML5", "type":"web", "level":"5"},
+    {"name":"React.js", "type":"web", "level":"3"},
+    {"name":"Android", "type":"mobile", "level":"4"},
+    {"name":"Angular.js", "type":"web", "level":"3"},
+    {"name":"git", "type":"dev", "level":"4"},
+    {"name":"PHP", "type":"web", "level":"3"},
+    {"name":"Tomcat", "type":"Java", "level":"2"},
+    {"name":"Jenkins", "type":"Java", "level":"2"},
+    {"name":"Maven", "type":"Java", "level":"2"},
+    {"name":"Hibernate", "type":"Java", "level":"2"},
+    {"name":"JUnit", "type":"Java", "level":"2"},
+    {"name":"Ubuntu", "type":"server", "level":"1"},
+    {"name":"Apache", "type":"server", "level":"1"},
+    {"name":"Linux", "type":"server", "level":"1"},
+    {"name":"NGINX", "type":"server", "level":"1"},
+    {"name":"Swift", "type":"mobile", "level":"3"},
+    {"name":"iOS", "type":"mobile", "level":"3"},
+    {"name":"UX", "type":"dev", "level":"2"},
+    {"name":"Project-Management", "type":"dev", "level":"2"},
+    {"name":"Agile", "type":"dev", "level":"4"}
+  ]
 }

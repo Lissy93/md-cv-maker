@@ -1,8 +1,29 @@
-ul.side-nav.fixed.light-blue
-  li.card
-    .card-image
-      img.profile-pic(src='assets/profile-pic-2.jpg', alt='Receiving the BCS Best Final Year Project Prize')
-      h1.card-title= heading1
+header
+  ul.side-nav.fixed.light-blue
+    li.card
+      .card-image
+        img.profile-pic(src='assets/profile-pic-2.jpg', alt='Receiving the BCS Best Final Year Project Prize')
+        h1.card-title= heading1
+
+    li
+      a(href="mailto:#{contact.email}")
+        i.small.white-text.material-icons email
+        span.right.white-text= contact.email
+
+    li
+      a(href="dialer:#{contact.phone}")
+        i.small.white-text.material-icons phone
+        span.right.white-text= contact.phone
+
+    li
+      a(href='#')
+        i.small.white-text.material-icons location_on
+        span.right.white-text= contact.address
+
+    li
+      a(href='http://#{contact.website}')
+        i.small.white-text.material-icons http
+        span.right.white-text= contact.website
 
 
 
