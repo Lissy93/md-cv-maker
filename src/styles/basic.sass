@@ -1,9 +1,35 @@
 
-.side-nav
-  li.card
-    margin: 0
-    .card-image .profile-pic
-      width: 100%
+html, body, .row, .side-bar, header
+  height: 100%
+
+.side-bar
+  padding: 0 !important
+  header
+    overflow-x: hidden
+    overflow-y: auto
+    width: inherit
+    @media (min-width: 601px)
+      position: fixed
+    .card
+      background: inherit
+      margin: 0
+      .card-image .profile-pic
+        width: 100%
+    .contact-container, .links-container
+      .row
+        margin: 15px 0
+        .col img
+          width: 25px
+    .bio-container
+      padding: 20px 0
+      background: rgba(255, 255, 255, 0.4)
+    .skills-container
+      padding: 20px 0
+      margin-bottom: 20px
+      background: rgba(255,255,255,0.25)
+
+
+
 
 
 
@@ -11,6 +37,14 @@
 .inline
   display: inline !important
 
+h1
+  background: rgba(0,0,0,0.6)
+h2
+  font-size: 1.8em
+  font-weight: 200
+  color: #FFFFFF
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.3)
+  margin: 0.5em 0  0 1em
 
 h4
   font-weight: 400

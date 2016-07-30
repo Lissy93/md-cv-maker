@@ -7,9 +7,13 @@
     "email":"sykes.alicia@gmail.com",
     "website":"AliciaSykes.com"
   },
+  "social":{
+    "github": "github.com/lissy93",
+    "linkedin":"linkedin.com/in/aliciasykes"
+  },
   "bio": [
-    "Software Engineer with broad development knowledge, but specialising",
-    "in full-stack modern web applications. Hardworking, adaptable and",
+    "Software Engineer with broad development knowledge, specialising",
+    "in full-stack modern web applications. \n Hardworking, adaptable and",
     "passionate about coding. Understands the importance of clean, good",
     "quality and well tested code."
   ],

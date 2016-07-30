@@ -1,29 +1,42 @@
-header
-  ul.side-nav.fixed.light-blue
-    li.card
-      .card-image
-        img.profile-pic(src='assets/profile-pic-2.jpg', alt='Receiving the BCS Best Final Year Project Prize')
-        h1.card-title= heading1
+header.light-blue
+  .card
+    .card-image.show-on-medium-and-up
+      img.profile-pic(src='assets/profile-pic-2.jpg', alt='Receiving the BCS Best Final Year Project Prize')
+      h1.card-title= heading1
 
-    li
-      a(href="mailto:#{contact.email}")
-        i.small.white-text.material-icons email
-        span.right.white-text= contact.email
+  .bio-container.z-depth-1
+    h2(style='margin: 0 0 0.2em 1em') About
+    .row
+      i.col.s2.small.white-text.material-icons perm_identity
+      span.col.s10.white-text!= bio.join(" ").replace(/\n/g, "<br>")
 
-    li
-      a(href="dialer:#{contact.phone}")
-        i.small.white-text.material-icons phone
-        span.right.white-text= contact.phone
+  .contact-container
+    h2 Contact
+    .row
+      i.col.s2.small.white-text.material-icons email
+      a(href="mailto:#{contact.email}").col.s10.white-text= contact.email
 
-    li
-      a(href='#')
-        i.small.white-text.material-icons location_on
-        span.right.white-text= contact.address
+    .row
+      i.col.s2.small.white-text.material-icons phone
+      a(href="dialer:#{contact.phone}").col.s10.white-text= contact.phone
 
-    li
-      a(href='http://#{contact.website}')
-        i.small.white-text.material-icons http
-        span.right.white-text= contact.website
+    .row
+      i.col.s2.small.white-text.material-icons location_on
+      span.col.s10.white-text= contact.address
+
+
+  .links-container
+    h2 Links
+    .row
+      i.col.s2.small.white-text.material-icons http
+      a(href='http://#{contact.website}').col.s10.white-text= contact.website
+
+    .row
+      .col.s2: img(src='assets/github.png')
+      a(href='https://#{social.github}').col.s10.white-text= social.github
+    .row
+      .col.s2: img(src='assets/linkedin.png')
+      a(href='https://#{social.linkedin}').col.s10.white-text= social.linkedin
 
 
 

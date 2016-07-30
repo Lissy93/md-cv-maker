@@ -1,6 +1,8 @@
 extend fragments/layout
 block content
 
-
-  include ./fragments/side
-  include ./fragments/middle
+  .row
+    .col.s12.m3.side-bar.z-depth-1
+      include ./fragments/side
+    .col.s12.m9
+      include ./fragments/middle
