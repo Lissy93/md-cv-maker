@@ -13,14 +13,14 @@
       for job in employment
         h5 #{job.role} @ <a href='#{job.placeurl}'>#{job.place}</a>
         small.grey-text= job.dates
-        p= job.description.join(" ")
+        p!= job.description.join(" ")
 
     h4 <i class="material-icons">done_all</i> Other Experience
     .col.s12.card-panel
       for stuff in experience
         h5 #{stuff.title}
         small.grey-text= stuff.subtitle
-        p= stuff.description.join(" ")
+        p!= stuff.description.join(" ")
 
 
     h4 <i class="material-icons">class</i> Education
@@ -38,9 +38,12 @@
         span(style='font-size:#{(skill.level / 6)+0.6}em; cursor: default', title='#{skill.type}: #{skill.name}. Competency: #{skill.level}/5') #{skill.name} &thinsp;
 
 
-  .row.hide-on-computer
-    br
+    h4 <i class='material-icons'>stars</i> Hobbies and Interests
+    .col.s12.card-panel.pad
+      p= hobies.join(" ")
 
+
+  .row.hide-on-computer
     .col.s6
       h4 Contact
       .card-panel

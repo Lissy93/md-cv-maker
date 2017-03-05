@@ -7,6 +7,10 @@
     "email":"sykes.alicia@gmail.com",
     "website":"AliciaSykes.com"
   },
+  "headshot":{
+    "url": "http://aliciasykes.com/cv/assets/profile-pic-2.jpg",
+    "alt": "Receiving the BCS Best Final Year Project Prize"
+  },
   "social":{
     "github": "github.com/lissy93",
     "linkedin":"linkedin.com/in/aliciasykes"
@@ -25,9 +29,10 @@
       "dates":"June - September 2013 (3 months)",
       "description":[
         "Worked as part of a small Java team following the agile methodology.",
-        "Developing software for WWARN who are working towards the eradication",
-        "of resistance to anti-malarial vaccinations. Involved processing mass",
-        "amounts of data, so algorithm efficiency was paramount."
+        "Developing software for <a href='http://www.wwarn.org/'>WWARN</a>",
+        "who are working towards the eradication of resistance to anti-malarial",
+        "vaccinations. Involved processing mass amounts of data, so algorithm",
+        "efficiency was paramount."
       ]
     },
     {
@@ -37,8 +42,10 @@
       "dates":"July 2014 - September 2015 (15 months)",
       "description":[
         "Worked accross several large government departments as a Java developer,",
-        "before joining the Accenture UKI Innovation Programme, using a range of",
-        "modern technologies to rapidly develop prototypes in an agile team."
+        "before joining the ",
+        "<a href='http://bit.ly/2amjHyn'>Accenture UKI Innovation Programme</a>, ",
+        "using a range of modern technologies to rapidly develop prototypes in ",
+        "an agile team."
       ]
     },
     {
@@ -60,12 +67,23 @@
       "subtitle":"Completed UAS, A Level Computing tutor, published many educational resources",
       "description":[
         "While at Uni, ran a series of after-school programming clubs at the",
-        "local secondary school for year 7- 9 pupils to inspire them to get into coding.",
-        "Completed the Undergraduate Ambassador Scheme, which by the end involved",
-        "planning and taking full computing lessons. 1-to-1 A Level computing tutor,",
-        "helped several pupils increase their grades.",
-        "Developed and maintain many educational online computing teaching",
-        "and learning resources, which currently are being used world-wide"
+        "<a href='https://www.wheatleypark.org/'>Wheatley Park School</a> and",
+        "<a href='http://bit.ly/2ahXY9y'>The Oxford Academy</a> for year ",
+        "7- 9 pupils to inspire them to get into coding.<br><br>I have Completed ",
+        "<a href='http://uas.ac.uk/'>the Undergraduate Ambassador Scheme</a>,",
+        "which by the end involved planning and taking full computing lessons.",
+        "1-to-1 A Level computing tutor, helped several pupils increase their grades.",
+        "<br><br>I am always keen to pass on what I've learnt to others, so I have",
+        "developed and maintain several online educational computing resources",
+        "for students, teachers and anyone wanting to learn.",
+        "Including <a href='http://web-dev.as93.net/'>web-dev.school</a>, ",
+        "<a href='http://computerscience.as93.net/'>a computer science site</a>, ",
+        "<a href='http://revisionquizzes.co.uk/'>revisionquizzes.co.uk</a>,",
+        "<a href='http://a2computing.as93.net/notes.pdf'>a 100-page A Level Computing Revision guide</a>,",
+        "<a href='http://vrs.as93.net/Economics%20Unit%204'>an educational file sharing site</a>,",
+        "<a href='http://a2computing.as93.net/'>A2 Computing revision site</a> and ",
+        "<a href='https://play.google.com/store/apps/details?id=net.as93.studytime'>an Android app for revising</a>",
+        "to name a few."
       ]
     },
     {
@@ -75,7 +93,13 @@
         "I regularly attend hackathons and coding competitions around the",
         "country, and abroad. I love the atmosphere, and the chance",
         "to experiment with new technologies, as well as collaborate with others.",
-        "I have won, or been a runner-up of several large competitions recently"
+        "I have won a few recently, including 1st place at",
+        "<a href='http://starthack.ch/'>StartHack Switzerland 2016</a>,",
+        "<a href='https://www.youtube.com/watch?v=88arKnDGec0'>HP Prize at AngelHack 2015</a>. And",
+        "2nd place in <a href='http://nbcuhackathon.com/medialabs/london-2015/#winners'>NBC Universal Comcast</a>, ",
+        "<a href='http://bit.ly/2azeh2R'>DevLab Live</a>, ",
+        "<a href='http://bit.ly/2aq3fuM'>AngelHack 2014</a>",
+        "and <href='http://bit.ly/2aoMJhs'>AngelHack 2013</a>."
       ]
     },
     {
@@ -84,16 +108,18 @@
       "description":[
         "Creating Android, iOS and hybrid mobile applications, as well as web",
         "apps and WordPress sits for small businesses, individuals and start-ups.",
-        "A portfolio of my work can be found at http://aliciasykes.com/work.html",
-        "Between jobs I have also worked on several open source projects."
+        "A portfolio of my work can be found at <a href='http://aliciasykes.com/work.html'>aliciasykes.com/work.html</a>",
+        "Between jobs I have also worked on several open source projects, ",
+        "including creating <a href='http://sentiment-sweep.com/'>sentiment-sweep.com</a>."
       ]
     },
     {
       "title":"Army Reservist",
       "subtitle":"Currently serving in a London-based Army Reserve unit",
       "description":[
-        "Regularly attend weekend exercises, and have had the opportunity to",
-        "learn a range of practical and transferable skills and gain",
+        "Regularly attend",
+        "<a href='http://www.army.mod.uk/intelligence/32263.aspx'>weekend exercises</a>,",
+        "and have had the opportunity to learn a range of practical and transferable skills and gain",
         "qualifications (including the Level 5 award in Management and Leadership)."
       ]
     }
@@ -159,5 +185,14 @@
     {"name":"UX", "type":"dev", "level":"2"},
     {"name":"Project-Management", "type":"dev", "level":"2"},
     {"name":"Agile", "type":"dev", "level":"4"}
+  ],
+
+  "hobies":[
+    "My biggest hobby is coding, I love experimenting with the latest ",
+    "technologies, finding better ways of doing things, and creating ",
+    "applications.",
+    "I'm also interested in astro-physics and cosmology- while at secondary",
+    "school, I got an A grade in self-taught GCSE Astronomy.  On weekends ",
+    "and sometimes an early session before work I enjoy running, swimming and cycling."
   ]
 }
