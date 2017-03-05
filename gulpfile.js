@@ -8,6 +8,7 @@ var concat  = require('gulp-concat');
 var uglify  = require('gulp-uglify');
 var sass    = require('gulp-sass');
 var cleanCSS= require('gulp-clean-css');
+var bower   = require('gulp-bower');
 
 // Compile Jade views into HTML
 gulp.task('views', function() {
@@ -65,12 +66,13 @@ gulp.task('test', function(){
 
 // Delete production files
 gulp.task('clean', function () {
-    return del([ 'production/*.html', 'production/css/**/*', 'production/js/**/*', 'production/assets/**/*' ]);
+    return del([ 'production' ]);
 });
 
 
 // Build complete project
 gulp.task('build', ['clean'], function(){
+    bower('./production/bower_components');
     gulp.start('views', 'coffee', 'sass', 'assets');
     gutil.beep();  // Delete this line if you don't like the sound effects!
 });
