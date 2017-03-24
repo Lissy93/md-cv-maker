@@ -1,62 +1,53 @@
 {
-  "title":"Alicia Sykes CV",
-  "heading1":"Alicia Sykes",
+  "title":"John Smith CV",
+  "heading1":"John Smith",
   "contact":{
-    "address":"London",
-    "phone": "07742922302",
-    "email":"sykes.alicia@gmail.com",
-    "website":"AliciaSykes.com"
+    "address":"Mountain View, SA",
+    "phone": "07772955104",
+    "email":"john-smith@google.com",
+    "website":"example.com"
+  },
+  "design": {
+    "color":"yellow"
   },
   "headshot":{
-    "url": "http://aliciasykes.com/cv/assets/profile-pic-2.jpg",
-    "alt": "Receiving the BCS Best Final Year Project Prize"
+    "url": "http://static2.hypable.com/wp-content/uploads/2012/11/david-tennant-doctor-who-50th-anniversary.jpg",
+    "alt": "Picture of me visiting Earth in 2007"
   },
   "social":{
-    "github": "github.com/lissy93",
-    "linkedin":"linkedin.com/in/aliciasykes"
+    "github": "https://github.com/guryanovev/JohnSmith",
+    "linkedin":"linkedin.com/in/johnsmith"
   },
   "bio": [
-    "Software Engineer with broad development knowledge, specialising",
-    "in full-stack modern web applications. \n Hardworking, adaptable and",
-    "passionate about coding. Understands the importance of clean, good",
-    "quality and well tested code."
+    "John Smith is a profesional time Lord, specialising in something..",
+    "lorem ipsum dolor sit amet consectetur adipiscing elit sed diam nonummy nibh"
   ],
   "employment":[
     {
-      "role":"Software Engineer (Intern)",
+      "role":"Doctor",
       "place":"University of Oxford",
-      "placeurl":"http://www.tropicalmedicine.ox.ac.uk/uk-centre",
-      "dates":"June - September 2013 (3 months)",
+      "placeurl":"http://www.bbc.co.uk/programmes/b006q2x0",
+      "dates":"June - September 1913 (3 months)",
       "description":[
-        "Worked as part of a small Java team following the agile methodology.",
-        "Developing software for <a href='http://www.wwarn.org/'>WWARN</a>",
-        "who are working towards the eradication of resistance to anti-malarial",
-        "vaccinations. Involved processing mass amounts of data, so algorithm",
-        "efficiency was paramount."
+        "lorem ipsum dolor sit amet consectetur adipiscing elit sed diam nonummy nibh",
+        "lorem ipsum dolor sit amet consectetur adipiscing elit sed diam nonummy nibh",
+        "lorem ipsum dolor sit amet consectetur adipiscing elit sed diam nonummy nibh"
       ]
     },
     {
       "role":"Software Engineer",
-      "place":"Accenture, UK",
-      "placeurl":"https://www.accenture.com",
-      "dates":"July 2014 - September 2015 (15 months)",
+      "place":"Google, UK",
+      "placeurl":"http://www.google.com",
+      "dates":"July 1998 - July 2001 (36 months)",
       "description":[
-        "Worked accross several large government departments as a Java developer,",
-        "before joining the ",
-        "<a href='http://bit.ly/2amjHyn'>Accenture UKI Innovation Programme</a>, ",
-        "using a range of modern technologies to rapidly develop prototypes in ",
-        "an agile team."
-      ]
-    },
-    {
-      "role":"Web Admin",
-      "place":"UTC Swindon",
-      "placeurl":"http://www.utcswindon.co.uk/",
-      "dates":"Part-time September 2013 - September 2014 (12 months)",
-      "description":[
-        "Was responsible for the day-to-day running of the WordPress site, from",
-        "creating and styling new pages and features to ensuring content was",
-        "published promptly and never out-of-date."
+        "Google's software engineers develop the next-generation technologies ",
+        "that change how millions of users connect, explore, and interact with ",
+        "information and one another. Our ambitions reach far beyond just Search. ",
+        "Our products need to handle information at the the scale of the web. We're ",
+        "looking for ideas from every area of computer science, including information ",
+        "retrieval, artificial intelligence, natural language processing, distributed ",
+        "computing, large-scale system design, networking, security, data compression, ",
+        "and user interface design; the list goes on and is growing every day. "
       ]
     }
   ],
@@ -128,13 +119,13 @@
   "education":[
     {
       "course":"Computer Science BSc",
-      "establishment":"Oxford Brookes University",
-      "placeurl":"https://www.brookes.ac.uk/",
+      "establishment":"Cambridge University",
+      "placeurl":"https://www.cambridge.ac.uk/",
       "dates":"September 2012 - May 2016",
       "description":[
         "Gained a first-class honours in computer science, and won the",
         "British Computer Society (BCS) award for best computing project.\n",
-        "Course representative and student ambassador, I was fully involved",
+        "Course representative and student ambassador, was fully involved",
         "in all aspects of my course.\n",
         "Founded and initially ran the computing society, which holds regular",
         "computer-science related, and social events."
@@ -188,11 +179,6 @@
   ],
 
   "hobies":[
-    "My biggest hobby is coding, I love experimenting with the latest ",
-    "technologies, finding better ways of doing things, and creating ",
-    "applications.",
-    "I'm also interested in astro-physics and cosmology- while at secondary",
-    "school, I got an A grade in self-taught GCSE Astronomy.  On weekends ",
-    "and sometimes an early session before work I enjoy running, swimming and cycling."
+    "Lorem Ipsum Dolor Siet Ammet"
   ]
 }
