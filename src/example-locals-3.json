@@ -1,0 +1,134 @@
+{
+  "title":"JJ | Curriculum Vitae",
+  "heading1":"Jobson Jobsworth",
+  "contact":{
+    "address":"Mountain View, SA",
+    "phone": "07772955104",
+    "email":"john-smith@google.com",
+    "website":"example.com"
+  },
+  "design": {
+    "color":"blue-grey"
+  },
+  "headshot":{
+    "url": "http://orig13.deviantart.net/b906/f/2015/290/5/8/random_cartoon_drawing_i_made_out_of_boredom_by_helvius-d9ddlvd.png",
+    "alt": "Me."
+  },
+  "bio": [
+    "I am a decisive, capable, punctual, ambitious, courteous, enthusiastic, ",
+    "trustworthy, determined, intelligent, keen, hard-working, friendly, ",
+    "industrious, dynamic, professional, generous, mature, proficient, ",
+    "knowledgeable, energetic, dedicated, creative, imaginative, honourable, ",
+    "inventive, adaptable, bright, patient, good-natured, receptive, cooperative, ",
+    "responsible, organised, motivated and careful individual, and can work well ",
+    " /n ",
+    "on my own or as part of a team.",
+    "I offer a mature and responsible attitude towards working, together with",
+    "an adaptable approach, which means I can be immature and irresponsible ",
+    "whenever necessary.",
+    " /n ",
+    "I am a highly orgasmed individual, my attention to detail is exceptional ",
+    "and my speeling is second to none. I can work effectively under pressure, ",
+    "up to a g-force of 24."
+  ],
+  "employment":[
+    {
+      "role":"",
+      "place":"Actively seeking employment",
+      "placeurl":"https://www.gov.uk/jobsearch",
+      "dates":"1987 - Present",
+      "description":[
+        "The recession hit my town earlier than expected. Much, much earlier. ",
+        "At least that’s what I put my twenty-five years of unemployment down to."
+      ]
+    },
+    {
+      "role":"Pizza Delivery Guy",
+      "place":"Pizza4u",
+      "placeurl":"http://www.pizzagogo.co.uk/",
+      "dates":"1986 - 1987",
+      "description":[
+        "Responsibilities included delivering pizzas to people who ordered ",
+        "pizzas and also, to demonstrate my initiative, delivering pizzas to ",
+        "people who didn’t order pizzas."
+      ]
+    },
+    {
+      "role":"Pizza Delivery Girl",
+      "place":"Pizza4u",
+      "placeurl":"http://www.pizzagogo.co.uk/",
+      "dates":"1986 - 1987",
+      "description":[
+        "As above, except - in order to obtain more tips - ",
+        "whilst wearing a rather fetching curly brunette wig and a low-cut top ",
+        "revealing a teasing taste of pec-cleavage."
+      ]
+    },
+    {
+      "role":"Shoe Shop Manager",
+      "place":"Shoes4u",
+      "placeurl":"http://www.example.com/",
+      "dates":"1 Hour in May 1986",
+      "description":[
+        "Responsibilities included ensuring customers buy the right shoes for ",
+        "their feet and measuring their feet with the foot measurer thing. ",
+        "Responsibilities ended when the real manager came back from lunch and ",
+        "told me to get out of his shop."
+      ]
+    },
+    {
+      "role":"Computer Programmer",
+      "place":"",
+      "placeurl":"",
+      "dates":"1983 - 1986",
+      "description":[
+        "Proficient in C, C+, C++, C#, C##, C#+# and C#*#+$%^£$!(“@#!!"
+      ]
+    },
+    {
+      "role":"Proofreader",
+      "place":"Pizza4u",
+      "placeurl":"http://www.example.com/",
+      "dates":"1978 - 1983",
+      "description":[
+        "Proffred ceveral teknical bokos aswe all nkow thear ar count less ",
+        "misteaks inn tem. I was sacked when I admitted I didn’t actually read ",
+        "the books as I waited for the film adaptations instead. Perhaps I missed ",
+        "the point but at least I didn’t miss the excellent C++ In a Nutshell: The Movie"
+      ]
+    },
+    {
+      "role":"Self-Employed Air Guitar Teacher ",
+      "place":"",
+      "placeurl":"",
+      "dates":"1975 - 1978",
+      "description":[
+        "Taught Air Guitar to competitors of the Air Guitar World Championships. ",
+        "Unfortunately my students were useless as they kept breaking the strings and losing the plectrums.",
+        " /n ",
+        "I also taught Air Mandolin, Air Triangle and the rarely mastered, ",
+        "Air One-Man-Band. I practiced the latter so much that I couldn’t stand ",
+        "still or walk normally anymore. I was a ‘local character’ in my town as ",
+        "everyone recognised me from my dangerously unique arm and leg movements when ",
+        "I walked. Unfortunately, I was forced to give up my new walk as it severely ",
+        "interfered with my new hobby of Air Conducting; the poor Air Orchestra were all over the place."
+      ]
+    }
+  ],
+
+  "education":[
+    {
+      "course":"Nursery",
+      "establishment":"Nursrey",
+      "placeurl":"",
+      "dates":"1980",
+      "description":[
+        " Learnt soft skills such as not falling over when walking and putting ",
+        "food into my mouth rather than up my nostrils. Learnt an increasingly ",
+        "populated vocabulary including the words jelly, poo and ",
+        "antidisestablishmentarianism. I also learnt the meaning of the word ",
+        "‘share’ and so I regularly took my classmate’s food."
+      ]
+    }
+  ]
+}
