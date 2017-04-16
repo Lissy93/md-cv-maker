@@ -2,68 +2,94 @@
 .main-content
   .row
     .hide-on-computer
-      h1 Alicia Sykes CV
+      h1=heading1
+      - if (typeof(bio) !== 'undefined'){
+        h4 <i class="material-icons">perm_identity</i> About
+        .col.s12.card-panel
+            p!= bio.join(" ").replace(/\n/g, "<br>")
+      - }
 
-      h4 <i class="material-icons">perm_identity</i> About
+    - if (typeof(employment) !== 'undefined'){
+      h4 <i class="material-icons">assignment</i> Employment
       .col.s12.card-panel
-          p!= bio.join(" ").replace(/\n/g, "<br>")
+        for job in employment
+          h5 #{job.role} @ <a href='#{job.placeurl}'>#{job.place}</a>
+          small.grey-text= job.dates
+          p!= job.description.join(" ")
+      - }
 
-    h4 <i class="material-icons">assignment</i> Employment
-    .col.s12.card-panel
-      for job in employment
-        h5 #{job.role} @ <a href='#{job.placeurl}'>#{job.place}</a>
-        small.grey-text= job.dates
-        p!= job.description.join(" ")
-
-    h4 <i class="material-icons">done_all</i> Other Experience
-    .col.s12.card-panel
-      for stuff in experience
-        h5 #{stuff.title}
-        small.grey-text= stuff.subtitle
-        p!= stuff.description.join(" ")
-
-
-    h4 <i class="material-icons">class</i> Education
-    .col.s12.card-panel
-      for school in education
-        h5 #{school.course} @ <a href='#{school.placeurl}'>#{school.establishment}</a>
-        small.grey-text= school.dates
-        p= school.description.join(" ")
+      - if (typeof(experience) !== 'undefined'){
+        h4 <i class="material-icons">done_all</i> Other Experience
+        .col.s12.card-panel
+          for stuff in experience
+            h5 #{stuff.title}
+            small.grey-text= stuff.subtitle
+            p!= stuff.description.join(" ")
+    - } 
 
 
-
-    h4 <i class="material-icons">list</i> Key Skills
-    .col.s12.card-panel
-      for skill in skills
-        span(style='font-size:#{(skill.level / 6)+0.6}em; cursor: default', title='#{skill.type}: #{skill.name}. Competency: #{skill.level}/5') #{skill.name} &thinsp;
-
-
-    h4 <i class='material-icons'>stars</i> Hobbies and Interests
-    .col.s12.card-panel.pad
-      p= hobies.join(" ")
+    - if (typeof(education) !== 'undefined'){
+      h4 <i class="material-icons">class</i> Education
+      .col.s12.card-panel
+        for school in education
+          h5 #{school.course} @ <a href='#{school.placeurl}'>#{school.establishment}</a>
+          small.grey-text= school.dates
+          p= school.description.join(" ")
+      - } 
 
 
+
+      - if (typeof(skills) !== 'undefined'){
+        h4 <i class="material-icons">list</i> Key Skills
+        .col.s12.card-panel
+          for skill in skills
+            span(style='font-size:#{(skill.level / 6)+0.6}em; cursor: default', title='#{skill.type}: #{skill.name}. Competency: #{skill.level}/5') #{skill.name} &thinsp;
+      - } 
+
+      - if (typeof(hobies) !== 'undefined'){
+        h4 <i class='material-icons'>stars</i> Hobbies and Interests
+        .col.s12.card-panel.pad
+          p= hobies.join(" ")
+      - } 
+
+  
   .row.hide-on-computer
-    .col.s6
-      h4 Contact
-      .card-panel
-          b Email:
-          span!= '&thinsp;'+contact.email
-          br
-          b Phone:
-          span!= '&thinsp;'+contact.phone
-          br
-          b Address:
-          span!= '&thinsp;'+contact.address
-
-    .col.s6.hide-on-computer
-      h4 Links
-      .card-panel
-        b Website:
-        span!= '&thinsp;' + contact.website
-        br
-        b GitHub:
-        span!= '&thinsp;' + social.github
-        br
-        b LinkedIn:
-        span!= '&thinsp;' + social.linkedin
+    - if (typeof(contact) !== 'undefined'){
+      .col.s6
+        h4 Contact
+        .card-panel
+          - if (typeof(contact.email) !== 'undefined'){
+                b Email:
+                span!= '&thinsp;'+contact.email
+                br
+            - }
+            - if (typeof(contact.phone) !== 'undefined'){
+                b Phone:
+                span!= '&thinsp;'+contact.phone
+                br
+            - } 
+            - if (typeof(contact.address) !== 'undefined'){
+                b Address:
+                span!= '&thinsp;'+contact.address
+            - }
+    - }
+    - if (typeof(social) !== 'undefined'){
+      .col.s6.hide-on-computer
+        h4 Links
+        .card-panel
+        - if (typeof(contact.website) !== 'undefined'){
+            b Website:
+            span!= '&thinsp;' + contact.website
+            br
+        - } 
+        - if (typeof(social.github) !== 'undefined'){
+            b GitHub:
+            span!= '&thinsp;' + social.github
+            br
+        - }
+        - if (typeof(social.linkedin) !== 'undefined'){
+            b LinkedIn:
+            span!= '&thinsp;' + social.linkedin
+        - } 
+        
+      - } 

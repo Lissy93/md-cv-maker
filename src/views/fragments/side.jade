@@ -10,30 +10,42 @@ header(class="#{design.color}")
       i.col.s2.small.white-text.material-icons perm_identity
       span.col.s10.white-text!= bio.join(" ").replace(/\n/g, "<br>")
 
-  .contact-container
-    h2 Contact
-    .row
-      i.col.s2.small.white-text.material-icons email
-      a(href="mailto:#{contact.email}").col.s10.white-text= contact.email
-
-    .row
-      i.col.s2.small.white-text.material-icons phone
-      a(href="dialer:#{contact.phone}").col.s10.white-text= contact.phone
-
-    .row
-      i.col.s2.small.white-text.material-icons location_on
-      span.col.s10.white-text= contact.address
-
-
-  .links-container
-    h2 Links
-    .row
-      i.col.s2.small.white-text.material-icons http
-      a(href='http://#{contact.website}').col.s10.white-text= contact.website
-
-    .row
-      .col.s2: img(src='assets/github.png')
-      a(href='https://#{social.github}').col.s10.white-text= social.github
-    .row
-      .col.s2: img(src='assets/linkedin.png')
-      a(href='https://#{social.linkedin}').col.s10.white-text= social.linkedin
+  - if (typeof(contact) !== 'undefined'){
+    .contact-container
+      h2 Contact
+      - if (typeof(contact.email) !== 'undefined'){
+        .row
+          i.col.s2.small.white-text.material-icons email
+          a(href="mailto:#{contact.email}").col.s10.white-text= contact.email
+      - }
+      - if (typeof(contact.phone) !== 'undefined'){
+        .row
+          i.col.s2.small.white-text.material-icons phone
+          a(href="dialer:#{contact.phone}").col.s10.white-text= contact.phone
+      - }
+      - if (typeof(contact.address) !== 'undefined'){
+        .row
+          i.col.s2.small.white-text.material-icons location_on
+          span.col.s10.white-text= contact.address
+      - } 
+    - }
+    
+    - if (typeof(social) !== 'undefined'){
+    .links-container
+      h2 Links
+      - if (typeof(contact.website) !== 'undefined'){
+        .row
+          i.col.s2.small.white-text.material-icons http
+          a(href='http://#{contact.website}').col.s10.white-text= contact.website
+      - }
+      - if (typeof(social.github) !== 'undefined'){ 
+        .row
+          .col.s2: img(src='assets/github.png')
+          a(href='https://#{social.github}').col.s10.white-text= social.github
+      - } 
+      - if (typeof(social.linkedin) !== 'undefined'){
+        .row
+          .col.s2: img(src='assets/linkedin.png')
+          a(href='https://#{social.linkedin}').col.s10.white-text= social.linkedin
+      - } 
+    - } 
