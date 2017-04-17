@@ -8,7 +8,7 @@
     "website":"example.com"
   },
   "design": {
-    "color":"yellow"
+    "color":"brown"
   },
   "headshot":{
     "url": "http://static2.hypable.com/wp-content/uploads/2012/11/david-tennant-doctor-who-50th-anniversary.jpg",
@@ -54,64 +54,10 @@
 
   "experience":[
     {
-      "title":"Teaching Computing",
-      "subtitle":"Completed UAS, A Level Computing tutor, published many educational resources",
+      "title":"Doctor Who",
+      "subtitle":"Made an appearance on the BBC sereis, Doctor Who",
       "description":[
-        "While at Uni, ran a series of after-school programming clubs at the",
-        "<a href='https://www.wheatleypark.org/'>Wheatley Park School</a> and",
-        "<a href='http://bit.ly/2ahXY9y'>The Oxford Academy</a> for year ",
-        "7- 9 pupils to inspire them to get into coding.<br><br>I have Completed ",
-        "<a href='http://uas.ac.uk/'>the Undergraduate Ambassador Scheme</a>,",
-        "which by the end involved planning and taking full computing lessons.",
-        "1-to-1 A Level computing tutor, helped several pupils increase their grades.",
-        "<br><br>I am always keen to pass on what I've learnt to others, so I have",
-        "developed and maintain several online educational computing resources",
-        "for students, teachers and anyone wanting to learn.",
-        "Including <a href='http://web-dev.as93.net/'>web-dev.school</a>, ",
-        "<a href='http://computerscience.as93.net/'>a computer science site</a>, ",
-        "<a href='http://revisionquizzes.co.uk/'>revisionquizzes.co.uk</a>,",
-        "<a href='http://a2computing.as93.net/notes.pdf'>a 100-page A Level Computing Revision guide</a>,",
-        "<a href='http://vrs.as93.net/Economics%20Unit%204'>an educational file sharing site</a>,",
-        "<a href='http://a2computing.as93.net/'>A2 Computing revision site</a> and ",
-        "<a href='https://play.google.com/store/apps/details?id=net.as93.studytime'>an Android app for revising</a>",
-        "to name a few."
-      ]
-    },
-    {
-      "title":"Hackathons",
-      "subtitle":"Keen attender of coding competitions",
-      "description":[
-        "I regularly attend hackathons and coding competitions around the",
-        "country, and abroad. I love the atmosphere, and the chance",
-        "to experiment with new technologies, as well as collaborate with others.",
-        "I have won a few recently, including 1st place at",
-        "<a href='http://starthack.ch/'>StartHack Switzerland 2016</a>,",
-        "<a href='https://www.youtube.com/watch?v=88arKnDGec0'>HP Prize at AngelHack 2015</a>. And",
-        "2nd place in <a href='http://nbcuhackathon.com/medialabs/london-2015/#winners'>NBC Universal Comcast</a>, ",
-        "<a href='http://bit.ly/2azeh2R'>DevLab Live</a>, ",
-        "<a href='http://bit.ly/2aq3fuM'>AngelHack 2014</a>",
-        "and <href='http://bit.ly/2aoMJhs'>AngelHack 2013</a>."
-      ]
-    },
-    {
-      "title":"Freelance Work",
-      "subtitle":"http://aliciasykes.com",
-      "description":[
-        "Creating Android, iOS and hybrid mobile applications, as well as web",
-        "apps and WordPress sits for small businesses, individuals and start-ups.",
-        "A portfolio of my work can be found at <a href='http://aliciasykes.com/work.html'>aliciasykes.com/work.html</a>",
-        "Between jobs I have also worked on several open source projects, ",
-        "including creating <a href='http://sentiment-sweep.com/'>sentiment-sweep.com</a>."
-      ]
-    },
-    {
-      "title":"Army Reservist",
-      "subtitle":"Currently serving in a London-based Army Reserve unit",
-      "description":[
-        "Regularly attend",
-        "<a href='http://www.army.mod.uk/intelligence/32263.aspx'>weekend exercises</a>,",
-        "and have had the opportunity to learn a range of practical and transferable skills and gain",
-        "qualifications (including the Level 5 award in Management and Leadership)."
+        ""
       ]
     }
 
@@ -130,52 +76,13 @@
         "Founded and initially ran the computing society, which holds regular",
         "computer-science related, and social events."
       ]
-    },
-    {
-      "course":"A Levels",
-      "establishment":"St John's Academy, Marlborough",
-      "placeurl":"http://www.stjohns.wilts.sch.uk/",
-      "dates":"May 2012 - Sep 2016",
-      "description":[
-        "Studied Economics, Physics and Computing at A Level. ",
-        "Business Studies and Photography for AS Level.\n",
-        "While studying also developed a set of interactive learning tools,",
-        "including a quiz sharing website, and dynamic computing revision app.",
-        "Won the governors award for economics."
-      ]
     }
   ],
 
   "skills":[
-    {"name":"D3.js", "type":"web", "level":"5"},
-    {"name":"Node.js", "type":"web", "level":"5"},
-    {"name":"JavaScript", "type":"web", "level":"5"},
-    {"name":"unit testing", "type":"dev", "level":"4"},
-    {"name":"Java", "type":"Java", "level":"3"},
-    {"name":"CSS3", "type":"web", "level":"5"},
-    {"name":"CoffeeScript", "type":"web", "level":"5"},
-    {"name":"npm", "type":"web", "level":"5"},
-    {"name":"Ionic", "type":"mobile", "level":"4"},
-    {"name":"HTML5", "type":"web", "level":"5"},
-    {"name":"React.js", "type":"web", "level":"3"},
-    {"name":"Android", "type":"mobile", "level":"4"},
-    {"name":"Angular.js", "type":"web", "level":"3"},
-    {"name":"git", "type":"dev", "level":"4"},
-    {"name":"PHP", "type":"web", "level":"3"},
-    {"name":"Tomcat", "type":"Java", "level":"2"},
-    {"name":"Jenkins", "type":"Java", "level":"2"},
-    {"name":"Maven", "type":"Java", "level":"2"},
-    {"name":"Hibernate", "type":"Java", "level":"2"},
-    {"name":"JUnit", "type":"Java", "level":"2"},
-    {"name":"Ubuntu", "type":"server", "level":"1"},
-    {"name":"Apache", "type":"server", "level":"1"},
-    {"name":"Linux", "type":"server", "level":"1"},
-    {"name":"NGINX", "type":"server", "level":"1"},
-    {"name":"Swift", "type":"mobile", "level":"3"},
-    {"name":"iOS", "type":"mobile", "level":"3"},
-    {"name":"UX", "type":"dev", "level":"2"},
-    {"name":"Project-Management", "type":"dev", "level":"2"},
-    {"name":"Agile", "type":"dev", "level":"4"}
+    {"name":"Time Travel", "type":"web", "level":"5"},
+    {"name":"Tardis Repair", "type":"web", "level":"3"},
+    {"name":"Saving-the-world", "type":"web", "level":"1"}
   ],
 
   "hobies":[
