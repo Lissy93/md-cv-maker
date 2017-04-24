@@ -7,7 +7,8 @@
   "scripts": {
     "test": "gulp test",
     "build": "gulp build",
-    "watch": "gulp watch"
+    "watch": "gulp watch",
+    "postinstall": "bower install"
   },
   "author": "Alicia Sykes",
   "license": "MIT",
