@@ -4,5 +4,4 @@ i = 0
 while i < links.length
   if links[i].href
     links[i].className += textColor
-    console.log ' #{design.color}-text'
   i++
