@@ -8,11 +8,11 @@
 1. **Clone from Git**
     `https://github.com/Lissy93/md-cv-maker.git`
 
-2. **Install Dependencies** 
+2. **Install Dependencies**
     `npm install`
 
-3. **Add content** 
-    Populate the `src/locals.json` with your content. 
+3. **Add content**
+    Populate the `src/locals.json` with your content.
     _(There are some example locals.json files in the examples directory)_
 
 4. **Build**
@@ -24,7 +24,7 @@
 
 ## Modifying the Template
 
-Run `npm run watch` to watch files, and rebuild the project on change 
+Run `npm run watch` to watch files, and rebuild the project on change
 
 _It should only be necissary to edit files within the `src/` directory._
 
@@ -33,16 +33,12 @@ _It should only be necissary to edit files within the `src/` directory._
 For a live demo, feel free to take a look at my CV, made using this code, at:
 [AliciaSykes.com/cv](http://aliciasykes.com/cv/)
 
-### Example 1
-![CV-example-1](examples/example-1.png  "CV-example-1") 
+Or click one of the below images to view screenshot:
+
+[![CV-example-2](examples/example-2.jpg  "Click to view example 2")](examples/example-2.png)
 
 
-### Example 2
-![CV-example-2](examples/example-2.png "CV-example-2")
-
-
-### Example 3
-[![Alicia-Sykes-CV](examples/example-3.png "Alicia-Sykes-CV")](http://aliciasykes.com/cv)
+[![CV-example-3](examples/example-3.jpg  "Click to view example 3")](examples/example-3.png)
 
 
 ## File Structure
@@ -53,17 +49,17 @@ For a live demo, feel free to take a look at my CV, made using this code, at:
     +-- production                  // All production/ compiled code (this is what gets generated)
         |   +-- bower_components    // Production - libraries
         |   +-- assets              // Production - assets (such as images)
-        |   +-- css                 // Production - compiled CSS 
+        |   +-- css                 // Production - compiled CSS
         |   +-- js                  // Production - compiled JavaScript
         |   +-- index.html          // Production - main entry point/ CV homepage
-        
+
     +-- src                         // All source files (this is what you edit)
         |   +-- assets              // Source - original assets, such as images
         |   +-- scripts             // Source - any scripts, CoffeeScript, JavaScript of TypeScript
         |   +-- styles              // Source - any styles, CSS or SASS
         |   +-- views               // Source - all view fragments, Pug/ Jade
         |   +-- locals.json         // Source - the actual data for your CV
-        
+
    +-- .bowerrc                     
    +-- .gitignore                   
    +-- bower.json
@@ -71,5 +67,5 @@ For a live demo, feel free to take a look at my CV, made using this code, at:
    +-- package.json
    +-- readme.md
    +-- server.js                // If you require a web server, then run node server to launch app
-   
+
 ```
