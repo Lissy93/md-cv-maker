@@ -34,8 +34,8 @@ For a live demo, feel free to take a look at my CV, made using this code, at:
 [AliciaSykes.com/cv](http://aliciasykes.com/cv/)
 
 ![CV-example-1](examples/example-1.png "CV-example-1")
-![CV-example-2](examples/example-1.png "CV-example-2")
-![CV-example-3](examples/example-1.png "CV-example-3")
+![CV-example-2](examples/example-2.png "CV-example-2")
+![CV-example-3](examples/example-3.png "CV-example-3")
 
 
 ## File Structure
