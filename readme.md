@@ -33,9 +33,16 @@ _It should only be necissary to edit files within the `src/` directory._
 For a live demo, feel free to take a look at my CV, made using this code, at:
 [AliciaSykes.com/cv](http://aliciasykes.com/cv/)
 
-![CV-example-1](examples/example-1.png "CV-example-1")
+### Example 1
+![CV-example-1](examples/example-1.png  "CV-example-1") 
+
+
+### Example 2
 ![CV-example-2](examples/example-2.png "CV-example-2")
-![CV-example-3](examples/example-3.png "CV-example-3")
+
+
+### Example 3
+[![Alicia-Sykes-CV](examples/example-3.png "Alicia-Sykes-CV")](http://aliciasykes.com/cv)
 
 
 ## File Structure
