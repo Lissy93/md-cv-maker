@@ -81,9 +81,8 @@ gulp.task('clean', function () {
 
 
 // Build complete project
-gulp.task('build', ['clean', 'lib'], function(){
-    // bower({ directory: './production/bower_components'});
-    gulp.start('views', 'coffee', 'sass', 'assets');
+gulp.task('build', ['clean'], function(){
+    gulp.start('views', 'coffee', 'sass', 'assets', 'lib');
     gutil.beep();  // Delete this line if you don't like the sound effects!
 });
 
