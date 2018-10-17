@@ -1,143 +1,143 @@
 {
-  "title":"",
-  "heading1":"",
+  "title":"Lorem Ipsum",
+  "heading1":"Lorem Ipsum",
   "contact":{
-    "address":"",
-    "phone": "",
-    "email":"",
-    "website":""
+    "address":"Lorem Ipsum",
+    "phone": "Lorem Ipsum",
+    "email":"Lorem Ipsum",
+    "website":"Lorem Ipsum"
   },
   "design": {
     "color":"orange"
   },
   "headshot":{
-    "url": "",
-    "alt": ""
+    "url": "Lorem Ipsum",
+    "alt": "Lorem Ipsum"
   },
   "social":{
-    "github": "",
-    "linkedin":""
+    "github": "Lorem Ipsum",
+    "linkedin":"Lorem Ipsum"
   },
   "bio": [
-    "",
-    "",
-    ""
+    "Lorem Ipsum",
+    "Lorem Ipsum",
+    "Lorem Ipsum"
   ],
   "employment":[
     {
-      "role":"",
-      "place":"",
-      "placeurl":"",
-      "dates":"",
+      "role":"Lorem Ipsum",
+      "place":"Lorem Ipsum",
+      "placeurl":"Lorem Ipsum",
+      "dates":"Lorem Ipsum",
       "description":[
-        "",
-        "",
-        ""
+        "Lorem Ipsum",
+        "Lorem Ipsum",
+        "Lorem Ipsum"
       ]
     },
     {
-      "role":"",
-      "place":"",
-      "placeurl":"",
-      "dates":"",
+      "role":"Lorem Ipsum",
+      "place":"Lorem Ipsum",
+      "placeurl":"Lorem Ipsum",
+      "dates":"Lorem Ipsum",
       "description":[
-        "",
-        "",
-        ""
+        "Lorem Ipsum",
+        "Lorem Ipsum",
+        "Lorem Ipsum"
       ]
     },
     {
-      "role":"",
-      "place":"",
-      "placeurl":"",
-      "dates":"",
+      "role":"Lorem Ipsum",
+      "place":"Lorem Ipsum",
+      "placeurl":"Lorem Ipsum",
+      "dates":"Lorem Ipsum",
       "description":[
-        "",
-        "",
-        ""
+        "Lorem Ipsum",
+        "Lorem Ipsum",
+        "Lorem Ipsum"
       ]
     }
   ],
 
   "experience":[
     {
-      "title":"",
-      "subtitle":"",
+      "title":"Lorem Ipsum",
+      "subtitle":"Lorem Ipsum",
       "description":[
-        "",
-        "",
-        ""
+        "Lorem Ipsum",
+        "Lorem Ipsum",
+        "Lorem Ipsum"
       ]
     },
     {
-      "title":"",
-      "subtitle":"",
+      "title":"Lorem Ipsum",
+      "subtitle":"Lorem Ipsum",
       "description":[
-        "",
-        "",
-        ""
+        "Lorem Ipsum",
+        "Lorem Ipsum",
+        "Lorem Ipsum"
       ]
     },
     {
-      "title":"",
-      "subtitle":"",
+      "title":"Lorem Ipsum",
+      "subtitle":"Lorem Ipsum",
       "description":[
-        "",
-        "",
-        ""
+        "Lorem Ipsum",
+        "Lorem Ipsum",
+        "Lorem Ipsum"
       ]
     }
   ],
 
   "education":[
     {
-      "course":"",
-      "establishment":"",
-      "placeurl":"",
-      "dates":"",
+      "course":"Lorem Ipsum",
+      "establishment":"Lorem Ipsum",
+      "placeurl":"Lorem Ipsum",
+      "dates":"Lorem Ipsum",
       "description":[
-        "",
-        "",
-        ""
+        "Lorem Ipsum",
+        "Lorem Ipsum",
+        "Lorem Ipsum"
       ]
     },
     {
-      "course":"",
-      "establishment":"",
-      "placeurl":"",
-      "dates":"",
+      "course":"Lorem Ipsum",
+      "establishment":"Lorem Ipsum",
+      "placeurl":"Lorem Ipsum",
+      "dates":"Lorem Ipsum",
       "description":[
-        "",
-        "",
-        ""
+        "Lorem Ipsum",
+        "Lorem Ipsum",
+        "Lorem Ipsum"
       ]
     },
     {
-      "course":"",
-      "establishment":"",
-      "placeurl":"",
-      "dates":"",
+      "course":"Lorem Ipsum",
+      "establishment":"Lorem Ipsum",
+      "placeurl":"Lorem Ipsum",
+      "dates":"Lorem Ipsum",
       "description":[
-        "",
-        "",
-        ""
+        "Lorem Ipsum",
+        "Lorem Ipsum",
+        "Lorem Ipsum"
       ]
     }
   ],
 
   "skills":[
-    {"name":"", "type":"", "level":"0"},
-    {"name":"", "type":"", "level":"0"},
-    {"name":"", "type":"", "level":"0"},
-    {"name":"", "type":"", "level":"0"},
-    {"name":"", "type":"", "level":"0"},
-    {"name":"", "type":"", "level":"0"},
-    {"name":"", "type":"", "level":"0"}
+    {"name":"Lorem Ipsum", "type":"Lorem Ipsum", "level":"0"},
+    {"name":"Lorem Ipsum", "type":"Lorem Ipsum", "level":"0"},
+    {"name":"Lorem Ipsum", "type":"Lorem Ipsum", "level":"0"},
+    {"name":"Lorem Ipsum", "type":"Lorem Ipsum", "level":"0"},
+    {"name":"Lorem Ipsum", "type":"Lorem Ipsum", "level":"0"},
+    {"name":"Lorem Ipsum", "type":"Lorem Ipsum", "level":"0"},
+    {"name":"Lorem Ipsum", "type":"Lorem Ipsum", "level":"0"}
   ],
 
   "hobies":[
-    "",
-    "",
-    ""
+    "Lorem Ipsum",
+    "Lorem Ipsum",
+    "Lorem Ipsum"
   ]
 }
