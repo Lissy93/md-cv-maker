@@ -7,8 +7,9 @@ var coffee  = require('gulp-coffee');
 var concat  = require('gulp-concat');
 var uglify  = require('gulp-uglify');
 var sass    = require('gulp-sass');
+var copy    = require('gulp-copy');
 var cleanCSS= require('gulp-clean-css');
-var bower   = require('gulp-bower');
+
 
 // Compile Jade views into HTML
 gulp.task('views', function() {
@@ -64,6 +65,15 @@ gulp.task('test', function(){
 });
 
 
+// Copy lib files
+gulp.task('lib', function(){
+    listOfLibraries = ['node_modules/materialize-css/dist/css/materialize.min.css']
+    return gulp
+        .src(listOfLibraries)
+        .pipe(copy('production/lib'))
+});
+
+
 // Delete production files
 gulp.task('clean', function () {
     return del([ 'production' ]);
@@ -71,8 +81,8 @@ gulp.task('clean', function () {
 
 
 // Build complete project
-gulp.task('build', ['clean'], function(){
-    bower('./production/bower_components');
+gulp.task('build', ['clean', 'lib'], function(){
+    // bower({ directory: './production/bower_components'});
     gulp.start('views', 'coffee', 'sass', 'assets');
     gutil.beep();  // Delete this line if you don't like the sound effects!
 });
