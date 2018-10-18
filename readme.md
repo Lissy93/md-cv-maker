@@ -35,10 +35,7 @@ For a live demo, feel free to take a look at my CV, made using this code, at:
 
 Or click one of the below images to view screenshot:
 
-[![CV-example-2](examples/example-2.jpg  "Click to view example 2")](examples/example-2.png)
-
-
-[![CV-example-3](examples/example-3.jpg  "Click to view example 3")](examples/example-3.png)
+[![CV-example](https://i.imgur.com/X7csIsx.png  "Click to view example")](http://aliciasykes.com/cv/)
 
 
 ## File Structure
